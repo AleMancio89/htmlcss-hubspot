@@ -29,6 +29,10 @@
   height: 300px;
 }
 
+.h500{
+  height: 500px;
+}
+
 .h600{
   height: 600px;
 }
@@ -150,7 +154,7 @@
   padding-top: 30px;
 }
 
-.row .w-50 p{
+.row .w-50 p, .row .bot .h500 p{
   margin-top: 30px;
 }
 
@@ -173,7 +177,7 @@
   height: 150px;
 }
 
-.row.h700 > button{
+.row.h700 > button, .row .bot .h500 > button{
   margin-top: 20px;
 }
 
@@ -262,4 +266,9 @@ td{
   width: calc(100% * 1/4);
   height: calc(100% * 1/2);
   float: right;
+}
+
+.row .bot .h500 h1{
+  margin: 20px 0;
+  padding-top: 30px;
 }
