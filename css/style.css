@@ -5,6 +5,11 @@
   font-family: 'Roboto', sans-serif;
 }
 
+p{
+  font-weight: 200;
+}
+
+
 /* DEBUG */
 
 .border-standard{
@@ -16,7 +21,6 @@
 .button{
   border-radius: 4%;
   border: 1px solid #fe775a;
-  /* padding: 10px 10px; */
   text-align: center;
   background-color: #fe775a;
   color: white;
@@ -325,15 +329,79 @@ ul.menu li{
   font-size: 12px;
 }
 
-
-
-
-
-
 .partners{
   height: 700px;
   background-color: white;
 }
+
+.partners .row-top{
+  width: 80%;
+  height: 30%;
+  margin: 0 auto;
+}
+
+.row-top .col-30 h1{
+  position: relative;
+  top: 20%;
+
+}
+
+.row-top .col-30 p{
+  position: relative;
+  top: 30%;
+}
+
+.partners .row-bot{
+  height: 70%;
+}
+
+.grid-partners{
+  margin
+}
+
+.img-grid-top{
+  width:70%;
+  position: relative;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-grid-bot{
+  width:70%;
+  position: relative;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.col-sx.col-50{
+  background-image: url(../img/woman.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+}
+
+.col-dx *{
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.col-dx h1:first-of-type{
+  padding-top: 80px;
+}
+
+
+.col-dx p:last-child{
+  font-size: 12px;
+  padding-top: 40px;
+}
+
+
+
+
+
+
 
 .footer{
   height: 600px;
